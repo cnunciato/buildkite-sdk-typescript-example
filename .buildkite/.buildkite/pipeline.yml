@@ -1,0 +1,6 @@
+steps:
+  - label: ":pipeline: Generate pipeline"
+    command: |
+      cd .buildkite
+      npm install
+      npm -s run pipeline | buildkite-agent pipeline upload
