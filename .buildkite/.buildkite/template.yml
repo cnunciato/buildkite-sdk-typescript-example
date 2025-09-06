@@ -1,8 +1,0 @@
-name: "Buildkite SDK Example"
-description: "An example pipeline that does something with the TypeScript SDK."
-emoji: ":buildkite:"
-languages:
-  - "TypeScript"
-steps:
-  - label: ":pipeline:"
-    command: "buildkite-agent pipeline upload"
